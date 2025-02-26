@@ -2,3 +2,10 @@
     font-family: Verdana, sans-serif;
     line-height: 1.5;
 }
+h3 {
+    color: orange;
+    font-weight: bold;
+}
+.Description {
+    font-style: italic;
+}
