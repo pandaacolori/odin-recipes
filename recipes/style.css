@@ -4,9 +4,18 @@
     font-size: 22px;
     margin-left: 20px;
 }
-h1 {
-    color: rgb(8, 70, 70);
-    font-size: 36px;
+.Header {
+    display: block;
+    text-transform: uppercase;
+    color: azure;
+    background-color: rgb(78, 175, 167);
+    border: 2px solid rgba(255, 123, 0, 0.808);
+    margin-left: 130px;
+    font-size: 34px;
+    box-shadow: 1px 1px 2px rgba(90, 134, 20, 0.4);
+    border-radius: 5px;
+    padding: 3px 10px;
+    cursor: pointer;
 }
 h3 {
     color: orange;

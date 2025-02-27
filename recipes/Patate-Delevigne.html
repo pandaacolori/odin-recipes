@@ -6,7 +6,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>PATATE DELEVIGNE</h1>
+    <button class="Header">
+        Patate Delevigne
+        <script>
+        function updateName() {
+            const name = prompt("Enter a new name to change who to honour");
+            button.textContent = `Patate ${name}`;
+          }
+          
+          const button = document.querySelector("button");
+          
+          button.addEventListener("click", updateName);
+          </script>
+          
+    </button>
     <img src="../images/delevigne.webp">
     <h3>Description</h3>
     <p class="Description">Finger licking pan roasted purple potatoes</p>
